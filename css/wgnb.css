@@ -1,0 +1,54 @@
+div.wgnb {
+  /*! display: none; */
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 7;
+}
+div.wgnb .center {
+  width: 990px;
+  margin: 0 auto;
+  padding: 25px 0 50px 0;
+}
+div.wgnb .center .wsub {
+  font-size: 14px;
+}
+div.wgnb div.center div.wsub:not(:first-child) {
+  padding-left: 25px;
+}
+div.wgnb div.center div.wsub:not(:last-child) {
+  border-right: 1px solid #bbb;
+}
+div.wgnb .center .wsub h2 {
+  
+}
+div.wgnb .center .wsub h2 a {
+  font-weight: bold;
+  line-height: 2;
+}
+div.wgnb .center .wsub h2 a:hover {
+  border-bottom: 1px solid black;
+}
+div.wgnb .center .wsub ul {
+  
+}
+div.wgnb .center .wsub ul li {
+  color: #666;
+  width: 134px;
+}
+div.wgnb .center .wsub ul li a {
+  color: #666;
+  line-height: 2.1;
+  font-size: 14px;
+}
+div.wgnb .center .wsub ul li a:hover {
+  border-bottom: 1px solid #666;
+}
+
+div.wgnb.fixed {
+  position: fixed;
+  top: 60px;
+  background: white;
+  border-bottom: 1px solid#666;
+}

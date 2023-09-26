@@ -1,0 +1,123 @@
+/* 공통스타일 class*/
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.full{
+  width: auto;
+}
+.wrap{
+  width: 980px;
+  margin: 0 auto;
+}
+.hide{
+  display: none; /* 안보이게 */
+}
+.rbox{
+  width: 260px;
+  height: 400px;
+  background-color: #eee;
+  text-align: center;
+}
+.bgimg{
+  background-position-y: 10%;
+  background-size: 61%;
+  background-repeat: no-repeat;
+  background-position-x: 86%;
+}
+
+/* 마진 */
+.margin50{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.margin100{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.marginT50{
+  margin-top: 50px;
+}
+.marginT100{
+  margin-top: 100px;
+}
+.marginT150{
+  margin-top: 150px;
+}
+.marginB50{
+  margin-bottom: 50px;
+}
+.marginB100{
+  margin-bottom: 100px;
+}
+
+/* 패딩 */
+.padding50{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.padding100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.paddingT50{
+  padding-top: 50px;
+}
+.paddingT100{
+  padding-top: 100px;
+}
+.paddingB50{
+  padding-bottom: 50px;
+}
+.paddingB75{
+  padding-bottom: 75px;
+}
+.paddingB100{
+  padding-bottom: 100px;
+}
+.flex{
+  display: flex;
+}
+.text-center{
+  text-align: center;
+}
+.h1{
+  font-size: 55px;
+}
+.h2{
+  font-size: 45px;
+}
+.h3{
+  font-size: 35px;
+}
+.h4{
+  font-size: 26px;
+}
+.h5{
+  font-size: 20px;
+}
+.p{
+  font-size: 14px;
+}
+.block{
+  display: block;
+}
+.all{
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.05);
+  padding: 4px 32px 4px 15px;
+  font-size: 14px;
+  line-height: 1.429em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+}
+.more{
+  font-size: 12px;
+  padding: 2px 15px 3px;
+  color: #666;
+  line-height: 1.417em;
+  border: 1px solid #f4f4f4;
+  border-radius: 11px;
+}

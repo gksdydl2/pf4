@@ -1,0 +1,178 @@
+header {
+  
+  width: 100%;
+}
+header .wrap { 
+  width: 100%;
+}
+header .wrap .htop {
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  width: 990px;
+  margin: 0 auto;
+}
+header .wrap .htop .benefit{
+  position: absolute;
+  right: 40%;
+}
+header .wrap .htop .benefit img{
+}
+header .wrap .htop h1 {
+  display: flex;
+  align-items: end;
+}
+header .wrap .htop h1 a{
+  background-image: url(../img/logo.png);
+  width: 117px;
+  height: 53px;
+  display: block;
+  font-size: 0;
+  position: relative;
+}
+header .wrap .htop h1 span{
+  font-size: 16px;
+  font-weight: 200;
+}
+header .wrap .htop .member {
+  gap: 30px;
+}
+header .wrap .htop .member li {
+}
+header .wrap .htop .member li a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .wrap .htop .member li a figure{
+  
+}
+header .wrap .htop .member li a figure img{
+  width: 36px;
+  height: 36px;
+}
+header .wrap .htop .member li a p { 
+  color: #666;
+  font-size: 13px;
+}
+header .nav{
+  border-top: 1px solid #eee;
+  padding: 10px 0;
+  border-bottom: 2px solid #fb4357;
+}
+header .nav .hbottom {
+  justify-content: space-between;
+  width: 990px;
+  margin: 0 auto;
+}
+header .nav .hbottom h1 {
+  display: none;
+}
+header .nav .hbottom .menu {
+  display: flex;
+  gap: 30px;
+}
+header .nav .hbottom .menu li {
+  
+}
+header .nav .hbottom .menu li a {
+  line-height: 1.5;
+  display: block;
+  font-weight: 500;
+}
+header .nav .hbottom .menu li:nth-of-type(3) a{
+  color: #FB4357;
+  font-weight: bold;
+}
+header .nav .hbottom form {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+header .nav .hbottom form::before{
+  content: "";
+  height: 20px;
+  border-right: 1px solid #cacaca;
+  position: absolute;
+  left: -10px;
+}
+header .nav .hbottom form::after{
+  content: "";
+  height: 20px;
+  border-right: 1px solid #cacaca;
+  position: absolute;
+  right: -10px;
+}
+header .nav .hbottom form input {
+  border: none;
+  width: 180px;
+  font-size: 24px;
+  padding-left: 7px;
+  height: 24px;
+}
+header .nav .hbottom form .search {
+  background-image: url(../img/search.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: transparent;
+  font-size: 0;
+  width: 26px;
+  height: 26px;
+  display: block;
+}
+
+header .nav.fixed {
+  height: 40px;
+  align-items: center;
+  display: flex;
+  border: none;
+}
+header .nav.fixed .hbottom {
+  
+  justify-content: normal;
+}
+header .nav.fixed .hbottom h1 { 
+  display: block;
+  width: 70px;
+  height: 32px;
+  transform: translateY(-1px);
+  margin-right: 50px;
+}
+header .nav.fixed .hbottom h1 a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+header .nav.fixed .hbottom h1 a img {
+  width: 100%;
+  height: 100%;
+}
+header .nav.fixed .hbottom .menu {
+  gap: 50px;
+  margin-right: 200px;
+}
+header .nav.fixed .hbottom .menu li a {
+  color: white;
+  line-height: 32px;
+}
+header .nav.fixed .hbottom form {
+  
+}
+header .nav.fixed .hbottom form input {
+  color: white;
+  background-color: transparent;
+}
+header .nav.fixed .hbottom form .search {
+  background-image: url(../img/search-w.svg);
+}
+header .nav.fixed .hbottom form::after,header .nav.fixed .hbottom form::before {
+  border-right: 1px solid black;
+}
+.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-image: linear-gradient(to right, rgb(215, 67, 87), rgb(241,79,58) 59%, rgb(239, 100, 47));
+  top: 0;
+}
